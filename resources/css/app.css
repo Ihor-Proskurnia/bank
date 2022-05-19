@@ -1,0 +1,51 @@
+.dropdown-item:hover,
+.dropdown-item:focus {
+    background-color: transparent !important;
+}
+
+.dropdown-item.active,
+.dropdown-item:active {
+    background-color: transparent !important;
+}
+
+.statusPay:after {
+    content: "\2807";
+    padding-left: 10px;
+    font-size: 1em;
+    width: 20px;
+    height: 20px;
+    border-radius: 100px;
+    color: white;
+}
+
+.bg-lightyellow {
+    background-color: #f2f895 !important;
+}
+
+.bg-lightgreen {
+    background-color: #82b66d !important;
+}
+
+.bg-lightred {
+    background-color: #f45353 !important;
+}
+
+.word-break {
+    word-break: break-all;
+}
+
+section {
+    position: relative;
+    width: 100%;
+  }
+
+.btn-scroll {
+color: white;
+position:absolute;
+right: -20%;
+}
+
+
+.btn-vertical{
+    transform: translateY(-110%);
+}
